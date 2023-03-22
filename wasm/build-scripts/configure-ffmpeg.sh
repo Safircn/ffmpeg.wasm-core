@@ -22,6 +22,8 @@ FLAGS=(
   # --enable-libass         # enable libass
   # --enable-libfribidi     # enable libfribidi
   # --enable-libaom         # enable libaom
+  --enable-decoder=mp3,amr,amrnb,amrwb
+  --enable-muxer=ircam,libmp3lame
 )
 echo "FFMPEG_CONFIG_FLAGS=${FLAGS[@]}"
 emconfigure ./configure "${FLAGS[@]}"
