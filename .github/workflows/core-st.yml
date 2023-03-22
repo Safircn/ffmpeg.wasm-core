@@ -20,14 +20,7 @@ jobs:
       max-parallel: 1
       matrix:
         script:
-          # - build-zlib
-          # - build-wavpack
           - build-lame
-          # - build-fdk-aac
-          # - build-ogg
-          # - build-vorbis
-          # - build-theora
-          # - build-opus
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
