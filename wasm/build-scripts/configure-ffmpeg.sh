@@ -13,7 +13,7 @@ FLAGS=(
   # --enable-libvpx         # enable libvpx / webm
   # --enable-libwavpack     # enable libwavpack
   --enable-libmp3lame     # enable libmp3lame
-  --enable-libfdk-aac     # enable libfdk-aac
+  # --enable-libfdk-aac     # enable libfdk-aac
   # --enable-libtheora      # enable libtheora
   # --enable-libvorbis      # enable libvorbis
   # --enable-libfreetype    # enable freetype
