@@ -27,8 +27,11 @@ FLAGS=(
   --disable-muxers
   --disable-protocols
   --disable-encoders
+  --disable-demuxers
+  --disable-bsfs
   --enable-encoder=libmp3lame
   --enable-decoder=mp3,amr,amrnb,amrwb
+  --enable-demuxer=mp3,amr,amrnb,amrwb
   --enable-muxer=ircam,libmp3lame
 )
 echo "FFMPEG_CONFIG_FLAGS=${FLAGS[@]}"
