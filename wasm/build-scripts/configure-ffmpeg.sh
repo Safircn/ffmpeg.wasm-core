@@ -22,6 +22,12 @@ FLAGS=(
   # --enable-libass         # enable libass
   # --enable-libfribidi     # enable libfribidi
   # --enable-libaom         # enable libaom
+  --disable-filters
+  --disable-decoders
+  --disable-muxers
+  --disable-protocols
+  --disable-encoders
+  --enable-encoder=libmp3lame
   --enable-decoder=mp3,amr,amrnb,amrwb
   --enable-muxer=ircam,libmp3lame
 )
