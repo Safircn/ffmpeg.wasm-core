@@ -27,9 +27,8 @@ FLAGS=(
   -I. -I./fftools -I$BUILD_DIR/include
   -Llibavcodec -Llibavdevice -Llibavfilter -Llibavformat -Llibavresample -Llibavutil -Lharfbuzz  -L$BUILD_DIR/lib
   -Wno-deprecated-declarations -Wno-pointer-sign -Wno-implicit-int-float-conversion -Wno-switch -Wno-parentheses -Qunused-arguments
-  -lavdevice -lavfilter -lavformat -lavcodec -lmp3lame
+  -lavdevice -lavformat -lavcodec -lmp3lame
   fftools/ffmpeg_opt.c fftools/ffmpeg_filter.c fftools/ffmpeg_hw.c fftools/cmdutils.c fftools/ffmpeg.c
-  -s USE_SDL=2                                  # use SDL2
   -s INVOKE_RUN=0                               # not to run the main() in the beginning
   -s EXIT_RUNTIME=1                             # exit runtime after execution
   -s MODULARIZE=1                               # use modularized version to be more flexible

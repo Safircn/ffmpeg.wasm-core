@@ -28,6 +28,7 @@ FLAGS=(
   --disable-protocols
   --disable-encoders
   --disable-demuxers
+  --disable-parsers
   --disable-bsfs
   --enable-encoder=libmp3lame
   --enable-decoder=mp3,amr,amrnb,amrwb
